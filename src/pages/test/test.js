@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import App from './app'
 import  '../../common/reset.css'
 Vue.use(Router)
+const bus = new Vue();
 
 const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
