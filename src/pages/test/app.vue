@@ -15,10 +15,10 @@ import header from '../../components/header.vue'
 import main from '../../components/main.vue'
 import footer from '../../components/footer.vue'
 export default {
-  data () {
-    return {
-      msg: 'test页面'
-    }
+  data:function(){
+          return {
+            msg: 'test页面'
+          }
   },
   components:{
     top:header,

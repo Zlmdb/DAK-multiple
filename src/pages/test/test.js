@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import App from './app'
-import  '../../common/reset.css'
+import '../../common/reset.css'
 Vue.use(Router)
-const bus = new Vue();
 
 const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
@@ -12,7 +11,7 @@ const routes = [
   { path: '/bar', component: Bar }
 ]
 const router = new Router({
-  routes:routes
+  routes: routes
 })
 
 // import router from './router'
